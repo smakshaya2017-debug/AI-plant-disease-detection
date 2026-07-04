@@ -60,7 +60,7 @@ def get_severity(conf):
 # Weather API
 # ---------------------------
 def get_weather(city):
-    API_KEY = "4e372309042115949b81e5b80359cfe5"  # 🔥 Replace this
+    API_KEY = "Replace your API key"  
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     try:
         data = requests.get(url).json()
